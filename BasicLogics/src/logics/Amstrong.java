@@ -41,12 +41,12 @@ public class Amstrong {
 
 	private int power(int rem, int length) {
 		
-		int pow=1;
+		int power=1;
 		while(length>0) {
-			pow=pow*rem;
+			power=power*rem;
 			length--;
 		}
-		return pow;
+		return power;
 	}
 
 	private int findLength(int n) {
